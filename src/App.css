@@ -1,0 +1,127 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.filter{
+  font-family: sans-serif;
+  background-color: hsla(0, 0%,0%,0.4 );
+  padding-bottom: 200px;
+  width:50% !important;
+  margin:0 auto !important;
+  text-align: left !important;
+}
+.coloring{
+  color:mediumvioletred !important;
+  font-size: 15px !important;
+  font-weight: 600;
+  /* text-align: left !important; */
+}
+label{
+  display: inline-block !important;
+  
+}
+.spacing{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+p {
+  display: block;
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 15px !important;
+  text-align: left !important;
+  color:red !important;
+}
+input{
+  display: inline-block;
+  margin-left: 10%!important;
+}
+input [type=email]{
+  margin-left: 100px !important;
+}
+input:hover{
+  border: 2px solid rgb(4, 166, 235) !important;
+}
+/* body{
+  background-color: teal;
+  margin :0 auto;
+} */
+/* h1{
+  text-align: center;
+} */
+.centering{
+  width:10%;
+  margin:0 auto;
+}
+.button{
+  background-color: mediumvioletred;
+  padding: 10px 30px;
+  margin-top: 20px ;
+  border-radius: 7px;
+}
+.display{
+  /* display: block !important; */
+  display: flex;
+}
+
+/* side nav with authentication */
+
+.link {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.design {
+  background-color: mediumvioletred;
+  width: auto;
+  height: 600px;
+  font-size: xx-large;
+  color: white !important;
+  line-height: 2.2;
+  padding: 40px 70px
+    
+}
+
+.hello {
+  display: flex;
+}
+
+main {
+  padding: 130px 60px;
+}
